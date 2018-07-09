@@ -85,7 +85,9 @@ public class DataProviders {
     public Object[][]dataProvider3(){
         return new Object[][]{
                 {3.897114317029974, 3d, 3d, 3d},
-                {4.993746088859544, 1d, 10, 10d}
+                {4.993746088859544, 1d, 10, 10d},
+                {6, 3, 4, 5}
+
         };
     }
 }
