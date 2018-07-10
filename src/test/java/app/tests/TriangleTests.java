@@ -38,9 +38,9 @@ public class TriangleTests {
             dataProvider = "CheckDetectTriangleMethodPositive"
     )
     public void tstCheckDetectTrianglePositive (int type, double a, double b, double c) {
-        Triangle triangle = new Triangle(a, b, c );
-        Assert.assertEquals(triangle.detectTriangle(), type);
 
+            Triangle triangle = new Triangle(a, b, c );
+            Assert.assertEquals(triangle.detectTriangle(), type);
     }
 
     @Test(
